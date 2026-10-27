@@ -258,7 +258,7 @@ body {
 
 /* ── Smooth scroll: anchor berhenti di bawah navbar ── */
 html { scroll-behavior: smooth; scroll-padding-top: 0; }
-section[id] { scroll-margin-top: 100px; }
+section[id] { scroll-margin-top: 95px; }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 
 `;
