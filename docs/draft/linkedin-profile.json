@@ -1,0 +1,60 @@
+{
+  "id": "0",
+  "url": "https://www.linkedin.com/in/kangdimmy",
+  "normalizedUrl": "https://www.linkedin.com/in/kangdimmy/",
+  "fullName": "A Dimmy Zulhifansyah",
+  "firstName": "A Dimmy",
+  "lastName": "Zulhifansyah",
+  "headline": "Professional Trainer | Public Speaker | Coach | Community Specialist & Enthusiast | 10 Years Experience | IG & Threads : @kangdimmy",
+  "summary": "Professional Profile\n1. Public Speaking Trainer (2017 – 2026) With a decade of experience, I have shared my expertise in Public Speaking across various sectors, including Corporations, Government Institutions, F&B, Banking, Organizations, Schools, Universities, Islamic Boarding Schools (Pesantren), and various communities.\nI have conducted training sessions in nearly 40 cities across Indonesia and I operate flexibly as a personal brand, through vendors, or as an associate for several training institutions.\n\n2. Content Creator I actively share practical Public Speaking tips and insights through digital content on Instagram Reels and TikTok, aiming to make communication skills accessible to a wider audience.\n\n3. Public Relations I am entrusted as the Public Relations Officer for Indonesia Speak Up, where I manage communication strategies and represent the organization’s voice.\n\n4. Community Leader & Volunteer I serve as an advisor, board member, and volunteer for several local communities in Bandung, focusing on social impact and human resource development.",
+  "location": "Bandung, West Java, Indonesia",
+  "city": "Bandung",
+  "state": "West Java",
+  "country": "ID",
+  "countryName": "Indonesia",
+  "connectionsCount": "5229",
+  "currentJob": {
+    "title": "Professional Trainer",
+    "companyName": "motivacenter",
+    "companyUrl": "https://www.linkedin.com/company/motivacenter/",
+    "companyWebsite": "https://motivacenter.id",
+    "industry": "Professional Training and Coaching",
+    "employeeRange": "1-10",
+    "companyDescription": "Motivacenter menyediakan berbagai pelatihan softskill untuk mengembangkan diri seperti public speaking, Neuro Linguistic Programing, Hypnotherapy, dll.",
+    "startDate": "2024-01-01",
+    "endDate": null,
+    "description": null,
+    "location": "Bandung, West Java, Indonesia"
+  },
+  "experiences": [
+    {
+      "title": "Professional Trainer",
+      "company": "ADZ Training",
+      "dates": "2017-02-01 – 2023-01-01",
+      "description": null
+    },
+    {
+      "title": "Training and Development Specialist",
+      "company": "ADZ Training",
+      "dates": "2017-01-01",
+      "description": null
+    }
+  ],
+  "educations": [
+    {
+      "school": "Universitas Padjadjaran",
+      "degree": "Bachelor's degree",
+      "fieldOfStudy": "Public Administration",
+      "dates": "1999-01-01 – 2003-01-01"
+    }
+  ],
+  "skills": [
+    "Public Speaking Training",
+    "Community Development",
+    "Writing",
+    "Volunteer Management",
+    "Community Service",
+    "Social Work"
+  ],
+  "languages": []
+}
