@@ -1,17 +1,25 @@
 import type { Metadata } from "next";
+import { SITE } from "./lib/site";
 import "./globals.css";
 
+const DESCRIPTION =
+  "Kang Dimmy (A Dimmy Zulhifansyah), trainer public speaking dari Bandung. Sepuluh tahun berbagi di hampir 40 kota, dari ruang rapat bank sampai pesantren.";
+
 export const metadata: Metadata = {
-  title: "Kang Dimmy Profile",
-  description:
-    "Kang Dimmy (A Dimmy Zulhifansyah), a public speaking trainer from Bandung. Ten years of sharing in nearly 40 cities across Indonesia, from meeting rooms to Islamic boarding schools.",
+  title: "Kang Dimmy | Trainer Public Speaking & Community Specialist, Bandung",
+  description: DESCRIPTION,
   openGraph: {
-    title: "Kang Dimmy Profile",
-    description:
-      "Kang Dimmy (A Dimmy Zulhifansyah), a public speaking trainer from Bandung. Ten years of sharing in nearly 40 cities across Indonesia.",
+    title: "Kang Dimmy: Trainer Public Speaking dari Bandung",
+    description: DESCRIPTION,
     type: "website",
-    locale: "en_US",
+    locale: "id_ID",
   },
+  ...(SITE.canonicalUrl
+    ? {
+        metadataBase: new URL(SITE.canonicalUrl),
+        alternates: { canonical: "/" },
+      }
+    : {}),
 };
 
 const personSchema = {
@@ -23,7 +31,7 @@ const personSchema = {
   address: {
     "@type": "PostalAddress",
     addressLocality: "Bandung",
-    addressRegion: "West Java",
+    addressRegion: "Jawa Barat",
     addressCountry: "ID",
   },
   sameAs: [
@@ -39,12 +47,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="scroll-smooth antialiased">
+    <html lang="id" className="scroll-smooth antialiased">
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link
-          href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
           rel="stylesheet"
         />
         <script
