@@ -13,7 +13,7 @@ export function Navbar() {
           Kang Dimmy
         </a>
 
-        <nav aria-label="Navigasi utama" className="hidden md:flex items-center gap-7 text-sm font-semibold">
+        <nav aria-label="Navigasi utama" className="hidden md:flex ml-auto items-center gap-7 text-sm font-semibold">
           {NAV_LINKS.map((link) => (
             <a key={link.href} href={link.href} className="nav__link">
               {link.label}
