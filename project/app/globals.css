@@ -1423,7 +1423,7 @@
   #pengalaman,
   #relawan,
   #pendidikan {
-    scroll-margin-top: 80px;
+    scroll-margin-top: 85px;
   }
 
   @media (prefers-reduced-motion: reduce) {
