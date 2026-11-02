@@ -1,14 +1,27 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { NAV_LINKS } from "../../lib/constants";
 
 export function Navbar() {
   const [open, setOpen] = useState(false);
+  const barRef = useRef<HTMLDivElement>(null);
+
+  // Offset anchor scroll = tinggi bar header (bukan panel menu yang bisa buka-tutup).
+  useEffect(() => {
+    const bar = barRef.current;
+    if (!bar) return;
+    const sync = () =>
+      document.documentElement.style.setProperty("--header-h", `${bar.offsetHeight}px`);
+    sync();
+    const observer = new ResizeObserver(sync);
+    observer.observe(bar);
+    return () => observer.disconnect();
+  }, []);
 
   return (
     <header className="sticky top-0 z-40 bg-[#FBFAF4]/95 backdrop-blur-sm border-b-[1.5px] border-[#111111]">
-      <div className="max-w-[1200px] mx-auto px-4 sm:px-6 py-4 flex items-center justify-between gap-4">
+      <div ref={barRef} className="max-w-[1200px] mx-auto px-4 sm:px-6 py-4 flex items-center justify-between gap-4">
         <a href="#main" className="brand font-display font-bold text-xl tracking-tight">
           Kang Dimmy
         </a>
