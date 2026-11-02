@@ -105,7 +105,7 @@ ${builtTailwind}
 
   html { scroll-behavior: smooth; scroll-padding-top: 0; }
   /* 82px = tinggi header sticky: padding 2×16px + tombol 48px + garis 1.5px */
-  section[id], #pengalaman, #relawan, #pendidikan { scroll-margin-top: 80 px; }
+  section[id], #pengalaman, #relawan, #pendidikan { scroll-margin-top: 82 px; }
 
   @media (prefers-reduced-motion: reduce) {
     html { scroll-behavior: auto; }
